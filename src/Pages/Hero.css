@@ -1,0 +1,53 @@
+.hero{
+  height: 100vh;
+  background: linear-gradient(180deg,pink,rgb(236, 198, 253));  
+  display: flex;
+}
+.heroleft{
+flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 20px;
+padding-left: 180px;
+line-height: 1.1;
+}
+.heroleft h2{
+   color: black;
+   font-size: 30px;
+   font-weight: 500; }
+
+.heroleft p {
+color: rgb(0, 0, 0);
+font-size: 75px;
+font-weight: 800;
+}
+.handicon{
+   display: flex;
+   align-items: center;
+   gap: 10px; 
+}
+.handicon img{
+    width: 55px;
+}
+.herollatestbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 300px;
+    height: 60px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: rgb(255, 93, 93);
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 400;
+}
+.heroright{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
